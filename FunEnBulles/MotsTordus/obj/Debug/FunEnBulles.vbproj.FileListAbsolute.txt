@@ -1,0 +1,12 @@
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.vbprojAssemblyReference.cache
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.Accueil.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.dlgRedefineMDP.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.FrmAdmins.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.FrmAuteurs.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.FrmCouvertures.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.FrmEditeurs.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.FrmEmprunteurs.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.FrmLivres.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.Resources.resources
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.vbproj.GenerateResource.cache
+C:\Users\f.normand\Desktop\FouDeProg\Existant\FunEnBulles\MotsTordus\obj\Debug\FunEnBulles.vbproj.CoreCompileInputs.cache
