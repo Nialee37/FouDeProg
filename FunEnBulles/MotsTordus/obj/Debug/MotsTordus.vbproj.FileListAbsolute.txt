@@ -1,0 +1,84 @@
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\bin\Debug\MotsTordus.exe.config
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\obj\Debug\MotsTordus.Accueil.resources
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\obj\Debug\MotsTordus.dlgRedefineMDP.resources
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\obj\Debug\MotsTordus.Form1.resources
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\obj\Debug\MotsTordus.FrmAdmins.resources
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\obj\Debug\MotsTordus.Resources.resources
+C:\Users\Sand\AppData\Local\Temporary Projects\MotsTordus\obj\Debug\MotsTordus.vbproj.GenerateResource.Cache
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.Accueil.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.dlgRedefineMDP.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmAdmins.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.Resources.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.vbproj.GenerateResource.Cache
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmAuteurs.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmCouvertures.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmEditeurs.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmEmprunteurs.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmLivres.resources
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\bin\Debug\MotsTordus.exe.config
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\bin\Debug\MotsTordus.exe
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\bin\Debug\MotsTordus.pdb
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\bin\Debug\MotsTordus.xml
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\bin\Debug\MySql.Data.dll
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.exe
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.xml
+C:\Users\Sand\Documents\Visual Studio 2012\Projects\MotsTordus\MotsTordus\obj\Debug\MotsTordus.pdb
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.exe.config
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.exe
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.xml
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.pdb
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.exe
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.pdb
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.xml
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MySql.Data.dll
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.Accueil.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.dlgRedefineMDP.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmAdmins.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmAuteurs.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmCouvertures.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmEditeurs.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmEmprunteurs.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmLivres.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.Resources.resources
+H:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.vbproj.GenerateResource.Cache
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.exe.config
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.exe
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.xml
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.pdb
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.exe
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.pdb
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MotsTordus.xml
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\bin\Debug\MySql.Data.dll
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.Accueil.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.dlgRedefineMDP.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmAdmins.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmAuteurs.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmCouvertures.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmEditeurs.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmEmprunteurs.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.FrmLivres.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.Resources.resources
+J:\Travail\Tours_13\Sio_02\Projet_Mediatheque\MotsTordus\MotsTordus\obj\Debug\MotsTordus.vbproj.GenerateResource.Cache
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.Accueil.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.dlgRedefineMDP.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmAdmins.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmAuteurs.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmCouvertures.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmEditeurs.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmEmprunteurs.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmLivres.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.Resources.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.vbproj.GenerateResource.Cache
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.vbproj.CoreCompileInputs.cache
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.vbprojResolveAssemblyReference.cache
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.Accueil.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.dlgRedefineMDP.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmAdmins.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmAuteurs.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmCouvertures.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmEditeurs.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmEmprunteurs.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.FrmLivres.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.Resources.resources
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.vbproj.GenerateResource.Cache
+\\Mac\AllFiles\2018-SIO\SIO-02\PPE\ressources\MotsTordus_V1\MotsTordus\obj\Debug\MotsTordus.vbproj.CoreCompileInputs.cache
