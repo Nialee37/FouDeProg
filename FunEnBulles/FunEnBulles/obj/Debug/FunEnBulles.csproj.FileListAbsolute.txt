@@ -1,0 +1,17 @@
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe.config
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.pdb
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csprojAssemblyReference.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\MainWindow.g.cs
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\App.g.cs
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.lref
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\MainWindow.baml
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.g.resources
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.Properties.Resources.resources
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.GenerateResource.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\Chargement_connection.g.cs
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\Chargement_connection.baml

@@ -64,40 +64,36 @@ Partial Class Accueil
         'pctBxCouvertures
         '
         Me.pctBxCouvertures.Image = Global.FunEnBulles.My.Resources.Resources.images
-        Me.pctBxCouvertures.Location = New System.Drawing.Point(856, 206)
-        Me.pctBxCouvertures.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pctBxCouvertures.Location = New System.Drawing.Point(428, 107)
         Me.pctBxCouvertures.Name = "pctBxCouvertures"
-        Me.pctBxCouvertures.Size = New System.Drawing.Size(264, 254)
+        Me.pctBxCouvertures.Size = New System.Drawing.Size(132, 132)
         Me.pctBxCouvertures.TabIndex = 21
         Me.pctBxCouvertures.TabStop = False
         '
         'pctBxEditeurs
         '
         Me.pctBxEditeurs.Image = Global.FunEnBulles.My.Resources.Resources.editeurs_00
-        Me.pctBxEditeurs.Location = New System.Drawing.Point(376, 769)
-        Me.pctBxEditeurs.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pctBxEditeurs.Location = New System.Drawing.Point(188, 400)
         Me.pctBxEditeurs.Name = "pctBxEditeurs"
-        Me.pctBxEditeurs.Size = New System.Drawing.Size(264, 254)
+        Me.pctBxEditeurs.Size = New System.Drawing.Size(132, 132)
         Me.pctBxEditeurs.TabIndex = 20
         Me.pctBxEditeurs.TabStop = False
         '
         'pctBxLivres
         '
         Me.pctBxLivres.Image = Global.FunEnBulles.My.Resources.Resources.livre_01
-        Me.pctBxLivres.Location = New System.Drawing.Point(404, 77)
-        Me.pctBxLivres.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pctBxLivres.Location = New System.Drawing.Point(202, 40)
         Me.pctBxLivres.Name = "pctBxLivres"
-        Me.pctBxLivres.Size = New System.Drawing.Size(264, 254)
+        Me.pctBxLivres.Size = New System.Drawing.Size(132, 132)
         Me.pctBxLivres.TabIndex = 19
         Me.pctBxLivres.TabStop = False
         '
         'pctBxEmprunteur
         '
         Me.pctBxEmprunteur.Image = Global.FunEnBulles.My.Resources.Resources.emprunteur
-        Me.pctBxEmprunteur.Location = New System.Drawing.Point(810, 590)
-        Me.pctBxEmprunteur.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pctBxEmprunteur.Location = New System.Drawing.Point(405, 307)
         Me.pctBxEmprunteur.Name = "pctBxEmprunteur"
-        Me.pctBxEmprunteur.Size = New System.Drawing.Size(264, 254)
+        Me.pctBxEmprunteur.Size = New System.Drawing.Size(132, 132)
         Me.pctBxEmprunteur.TabIndex = 17
         Me.pctBxEmprunteur.TabStop = False
         '
@@ -106,10 +102,9 @@ Partial Class Accueil
         Me.lblNotConnect.AutoSize = True
         Me.lblNotConnect.Font = New System.Drawing.Font("Calibri", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNotConnect.ForeColor = System.Drawing.Color.Maroon
-        Me.lblNotConnect.Location = New System.Drawing.Point(240, 481)
-        Me.lblNotConnect.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lblNotConnect.Location = New System.Drawing.Point(120, 250)
         Me.lblNotConnect.Name = "lblNotConnect"
-        Me.lblNotConnect.Size = New System.Drawing.Size(792, 86)
+        Me.lblNotConnect.Size = New System.Drawing.Size(399, 42)
         Me.lblNotConnect.TabIndex = 12
         Me.lblNotConnect.Text = "< En attente de connexion"
         '
@@ -120,19 +115,17 @@ Partial Class Accueil
         Me.pnlAccueil.Controls.Add(Me.pctBxLivres)
         Me.pnlAccueil.Controls.Add(Me.pctBxAuteurs)
         Me.pnlAccueil.Controls.Add(Me.pctBxEmprunteur)
-        Me.pnlAccueil.Location = New System.Drawing.Point(6, 6)
-        Me.pnlAccueil.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pnlAccueil.Location = New System.Drawing.Point(3, 3)
         Me.pnlAccueil.Name = "pnlAccueil"
-        Me.pnlAccueil.Size = New System.Drawing.Size(1242, 1060)
+        Me.pnlAccueil.Size = New System.Drawing.Size(621, 551)
         Me.pnlAccueil.TabIndex = 22
         '
         'pctBxAuteurs
         '
         Me.pctBxAuteurs.Image = Global.FunEnBulles.My.Resources.Resources.auteur_02
-        Me.pctBxAuteurs.Location = New System.Drawing.Point(46, 412)
-        Me.pctBxAuteurs.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.pctBxAuteurs.Location = New System.Drawing.Point(23, 214)
         Me.pctBxAuteurs.Name = "pctBxAuteurs"
-        Me.pctBxAuteurs.Size = New System.Drawing.Size(264, 254)
+        Me.pctBxAuteurs.Size = New System.Drawing.Size(132, 132)
         Me.pctBxAuteurs.TabIndex = 18
         Me.pctBxAuteurs.TabStop = False
         '
@@ -141,10 +134,9 @@ Partial Class Accueil
         Me.Lbltitre.AutoSize = True
         Me.Lbltitre.Font = New System.Drawing.Font("Calibri", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbltitre.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Lbltitre.Location = New System.Drawing.Point(6, 48)
-        Me.Lbltitre.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Lbltitre.Location = New System.Drawing.Point(3, 25)
         Me.Lbltitre.Name = "Lbltitre"
-        Me.Lbltitre.Size = New System.Drawing.Size(294, 66)
+        Me.Lbltitre.Size = New System.Drawing.Size(149, 33)
         Me.Lbltitre.TabIndex = 1
         Me.Lbltitre.Text = "FunEnBulles"
         '
@@ -160,30 +152,27 @@ Partial Class Accueil
         Me.btnQuitter.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnQuitter.ForeColor = System.Drawing.Color.Transparent
         Me.btnQuitter.Image = Global.FunEnBulles.My.Resources.Resources.quitter_btn
-        Me.btnQuitter.Location = New System.Drawing.Point(128, 962)
-        Me.btnQuitter.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnQuitter.Location = New System.Drawing.Point(64, 500)
         Me.btnQuitter.Name = "btnQuitter"
-        Me.btnQuitter.Size = New System.Drawing.Size(108, 104)
+        Me.btnQuitter.Size = New System.Drawing.Size(54, 54)
         Me.btnQuitter.TabIndex = 0
         Me.btnQuitter.UseVisualStyleBackColor = False
         '
         'lblRang2
         '
         Me.lblRang2.AutoSize = True
-        Me.lblRang2.Location = New System.Drawing.Point(142, 185)
-        Me.lblRang2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lblRang2.Location = New System.Drawing.Point(71, 96)
         Me.lblRang2.Name = "lblRang2"
-        Me.lblRang2.Size = New System.Drawing.Size(37, 30)
+        Me.lblRang2.Size = New System.Drawing.Size(20, 16)
         Me.lblRang2.TabIndex = 3
         Me.lblRang2.Text = "..."
         '
         'Btn_connexion
         '
         Me.Btn_connexion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Btn_connexion.Location = New System.Drawing.Point(86, 242)
-        Me.Btn_connexion.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Btn_connexion.Location = New System.Drawing.Point(43, 126)
         Me.Btn_connexion.Name = "Btn_connexion"
-        Me.Btn_connexion.Size = New System.Drawing.Size(200, 44)
+        Me.Btn_connexion.Size = New System.Drawing.Size(100, 23)
         Me.Btn_connexion.TabIndex = 6
         Me.Btn_connexion.Text = "Connexion"
         Me.Btn_connexion.UseVisualStyleBackColor = True
@@ -192,48 +181,43 @@ Partial Class Accueil
         'LblRang
         '
         Me.LblRang.AutoSize = True
-        Me.LblRang.Location = New System.Drawing.Point(16, 185)
-        Me.LblRang.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.LblRang.Location = New System.Drawing.Point(8, 96)
         Me.LblRang.Name = "LblRang"
-        Me.LblRang.Size = New System.Drawing.Size(102, 30)
+        Me.LblRang.Size = New System.Drawing.Size(57, 16)
         Me.LblRang.TabIndex = 2
         Me.LblRang.Text = "Rang : "
         '
         'txt_mdp
         '
-        Me.txt_mdp.Location = New System.Drawing.Point(192, 117)
-        Me.txt_mdp.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txt_mdp.Location = New System.Drawing.Point(100, 61)
         Me.txt_mdp.Name = "txt_mdp"
         Me.txt_mdp.PasswordChar = Global.Microsoft.VisualBasic.ChrW(9679)
-        Me.txt_mdp.Size = New System.Drawing.Size(166, 37)
+        Me.txt_mdp.Size = New System.Drawing.Size(81, 22)
         Me.txt_mdp.TabIndex = 3
         '
         'lbl_pseudo
         '
         Me.lbl_pseudo.AutoSize = True
-        Me.lbl_pseudo.Location = New System.Drawing.Point(16, 58)
-        Me.lbl_pseudo.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_pseudo.Location = New System.Drawing.Point(8, 30)
         Me.lbl_pseudo.Name = "lbl_pseudo"
-        Me.lbl_pseudo.Size = New System.Drawing.Size(158, 30)
+        Me.lbl_pseudo.Size = New System.Drawing.Size(89, 16)
         Me.lbl_pseudo.TabIndex = 1
         Me.lbl_pseudo.Text = "Bienvenue, "
         Me.lbl_pseudo.Visible = False
         '
         'txt_id
         '
-        Me.txt_id.Location = New System.Drawing.Point(180, 52)
-        Me.txt_id.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.txt_id.Location = New System.Drawing.Point(100, 27)
         Me.txt_id.Name = "txt_id"
-        Me.txt_id.Size = New System.Drawing.Size(178, 37)
+        Me.txt_id.Size = New System.Drawing.Size(81, 22)
         Me.txt_id.TabIndex = 2
         '
         'Btn_deco
         '
         Me.Btn_deco.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Btn_deco.Location = New System.Drawing.Point(66, 242)
-        Me.Btn_deco.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Btn_deco.Location = New System.Drawing.Point(33, 126)
         Me.Btn_deco.Name = "Btn_deco"
-        Me.Btn_deco.Size = New System.Drawing.Size(238, 44)
+        Me.Btn_deco.Size = New System.Drawing.Size(119, 23)
         Me.Btn_deco.TabIndex = 0
         Me.Btn_deco.Text = "Deconnexion"
         Me.Btn_deco.UseVisualStyleBackColor = True
@@ -243,20 +227,18 @@ Partial Class Accueil
         '
         Me.lbl_mdp.AutoSize = True
         Me.lbl_mdp.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_mdp.Location = New System.Drawing.Point(14, 123)
-        Me.lbl_mdp.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_mdp.Location = New System.Drawing.Point(7, 64)
         Me.lbl_mdp.Name = "lbl_mdp"
-        Me.lbl_mdp.Size = New System.Drawing.Size(178, 26)
+        Me.lbl_mdp.Size = New System.Drawing.Size(96, 13)
         Me.lbl_mdp.TabIndex = 1
         Me.lbl_mdp.Text = "Mot de Passe : "
         '
         'lbl_id
         '
         Me.lbl_id.AutoSize = True
-        Me.lbl_id.Location = New System.Drawing.Point(14, 58)
-        Me.lbl_id.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_id.Location = New System.Drawing.Point(7, 30)
         Me.lbl_id.Name = "lbl_id"
-        Me.lbl_id.Size = New System.Drawing.Size(157, 30)
+        Me.lbl_id.Size = New System.Drawing.Size(87, 16)
         Me.lbl_id.TabIndex = 0
         Me.lbl_id.Text = "Identifiant : "
         '
@@ -268,10 +250,9 @@ Partial Class Accueil
         Me.btnAdmin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAdmin.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAdmin.Location = New System.Drawing.Point(38, 529)
-        Me.btnAdmin.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.btnAdmin.Location = New System.Drawing.Point(19, 275)
         Me.btnAdmin.Name = "btnAdmin"
-        Me.btnAdmin.Size = New System.Drawing.Size(308, 112)
+        Me.btnAdmin.Size = New System.Drawing.Size(154, 58)
         Me.btnAdmin.TabIndex = 11
         Me.btnAdmin.Text = "          Administrer"
         Me.btnAdmin.UseVisualStyleBackColor = False
@@ -280,10 +261,9 @@ Partial Class Accueil
         'lbl_error_login
         '
         Me.lbl_error_login.AutoSize = True
-        Me.lbl_error_login.Location = New System.Drawing.Point(20, 348)
-        Me.lbl_error_login.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_error_login.Location = New System.Drawing.Point(10, 181)
         Me.lbl_error_login.Name = "lbl_error_login"
-        Me.lbl_error_login.Size = New System.Drawing.Size(30, 25)
+        Me.lbl_error_login.Size = New System.Drawing.Size(16, 13)
         Me.lbl_error_login.TabIndex = 7
         Me.lbl_error_login.Text = "..."
         Me.lbl_error_login.Visible = False
@@ -293,10 +273,9 @@ Partial Class Accueil
         Me.lbl_login.AutoSize = True
         Me.lbl_login.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_login.ForeColor = System.Drawing.Color.Maroon
-        Me.lbl_login.Location = New System.Drawing.Point(0, 285)
-        Me.lbl_login.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_login.Location = New System.Drawing.Point(0, 148)
         Me.lbl_login.Name = "lbl_login"
-        Me.lbl_login.Size = New System.Drawing.Size(389, 39)
+        Me.lbl_login.Size = New System.Drawing.Size(199, 19)
         Me.lbl_login.TabIndex = 6
         Me.lbl_login.Text = "En attente d'identification..."
         Me.lbl_login.Visible = False
@@ -304,10 +283,9 @@ Partial Class Accueil
         'Lbl_connect_error_2
         '
         Me.Lbl_connect_error_2.ForeColor = System.Drawing.Color.Red
-        Me.Lbl_connect_error_2.Location = New System.Drawing.Point(20, 435)
-        Me.Lbl_connect_error_2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Lbl_connect_error_2.Location = New System.Drawing.Point(10, 226)
         Me.Lbl_connect_error_2.Name = "Lbl_connect_error_2"
-        Me.Lbl_connect_error_2.Size = New System.Drawing.Size(348, 212)
+        Me.Lbl_connect_error_2.Size = New System.Drawing.Size(174, 110)
         Me.Lbl_connect_error_2.TabIndex = 5
         Me.Lbl_connect_error_2.Text = "..."
         Me.Lbl_connect_error_2.Visible = False
@@ -315,10 +293,9 @@ Partial Class Accueil
         'Lbl_connect_error_1
         '
         Me.Lbl_connect_error_1.AutoSize = True
-        Me.Lbl_connect_error_1.Location = New System.Drawing.Point(20, 212)
-        Me.Lbl_connect_error_1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Lbl_connect_error_1.Location = New System.Drawing.Point(10, 110)
         Me.Lbl_connect_error_1.Name = "Lbl_connect_error_1"
-        Me.Lbl_connect_error_1.Size = New System.Drawing.Size(30, 25)
+        Me.Lbl_connect_error_1.Size = New System.Drawing.Size(16, 13)
         Me.Lbl_connect_error_1.TabIndex = 4
         Me.Lbl_connect_error_1.Text = "..."
         Me.Lbl_connect_error_1.Visible = False
@@ -328,10 +305,9 @@ Partial Class Accueil
         Me.lbl_connection_1.AutoSize = True
         Me.lbl_connection_1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_connection_1.ForeColor = System.Drawing.Color.Maroon
-        Me.lbl_connection_1.Location = New System.Drawing.Point(38, 156)
-        Me.lbl_connection_1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lbl_connection_1.Location = New System.Drawing.Point(19, 81)
         Me.lbl_connection_1.Name = "lbl_connection_1"
-        Me.lbl_connection_1.Size = New System.Drawing.Size(303, 39)
+        Me.lbl_connection_1.Size = New System.Drawing.Size(154, 19)
         Me.lbl_connection_1.TabIndex = 3
         Me.lbl_connection_1.Text = "Connexion à la BDD..."
         '
@@ -349,11 +325,9 @@ Partial Class Accueil
         Me.Login_Box.Controls.Add(Me.lbl_id)
         Me.Login_Box.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Login_Box.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Login_Box.Location = New System.Drawing.Point(6, 652)
-        Me.Login_Box.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Login_Box.Location = New System.Drawing.Point(3, 339)
         Me.Login_Box.Name = "Login_Box"
-        Me.Login_Box.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.Login_Box.Size = New System.Drawing.Size(374, 298)
+        Me.Login_Box.Size = New System.Drawing.Size(187, 155)
         Me.Login_Box.TabIndex = 2
         Me.Login_Box.TabStop = False
         Me.Login_Box.Text = "Connexion"
@@ -362,7 +336,6 @@ Partial Class Accueil
         'SplitContainer1
         '
         Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.SplitContainer1.Name = "SplitContainer1"
         '
         'SplitContainer1.Panel1
@@ -383,18 +356,16 @@ Partial Class Accueil
         Me.SplitContainer1.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.SplitContainer1.Panel2.Controls.Add(Me.lblNotConnect)
         Me.SplitContainer1.Panel2.Controls.Add(Me.pnlAccueil)
-        Me.SplitContainer1.Size = New System.Drawing.Size(1648, 1071)
-        Me.SplitContainer1.SplitterDistance = 386
-        Me.SplitContainer1.SplitterWidth = 8
+        Me.SplitContainer1.Size = New System.Drawing.Size(824, 557)
+        Me.SplitContainer1.SplitterDistance = 193
         Me.SplitContainer1.TabIndex = 13
         '
         'Accueil
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1650, 1075)
+        Me.ClientSize = New System.Drawing.Size(825, 552)
         Me.Controls.Add(Me.SplitContainer1)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "Accueil"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Accueil"
