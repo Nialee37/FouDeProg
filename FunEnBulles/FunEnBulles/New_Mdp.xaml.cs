@@ -23,5 +23,13 @@ namespace FunEnBulles
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(tb_Nmdp.Text != tb_NmdpVerif.Text)
+            {
+                MessageBox.Show("ton message");
+            }
+        }
     }
 }
