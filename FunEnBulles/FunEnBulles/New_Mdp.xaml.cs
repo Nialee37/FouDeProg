@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace FunEnBulles
 {
     /// <summary>
-    /// Logique d'interaction pour Chargement_connection.xaml
+    /// Logique d'interaction pour New_Mdp.xaml
     /// </summary>
-    public partial class Chargement_connection : Window
+    public partial class New_Mdp : Window
     {
-        public Chargement_connection()
+        public New_Mdp()
         {
             InitializeComponent();
-        }
-        private void gif_MediaEnded(object sender, RoutedEventArgs e)
-        {
-            gif.Position = new TimeSpan(0, 0, 1);
-            gif.Play();
         }
     }
 }
