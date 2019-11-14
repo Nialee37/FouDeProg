@@ -26,9 +26,15 @@ namespace FunEnBulles
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if(tb_Nmdp.Text != tb_NmdpVerif.Text)
+            if (pb_Newmdp.Password != pb_NewmdpVerif.Password)
             {
-                MessageBox.Show("ton message");
+                MessageBox.Show("Veuillez saisir le même mot de passe !");
+            }
+            else
+            {
+                Connexion fene = new Connexion();
+                fene.Show();
+                this.Close();
             }
         }
     }
