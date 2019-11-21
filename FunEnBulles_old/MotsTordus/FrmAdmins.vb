@@ -136,7 +136,7 @@ Public Class FrmAdmins
         dtGrdAuteurs.Refresh()
     End Sub
 
-    Private Sub btnSauvegarder_Click(sender As Object, e As EventArgs) Handles btnSauvegarder.Click
+    Private Sub btnSauvegarder_Click(sender As Object, e As EventArgs)
 
         Dim Ncheck As String = ""
         If (RbtUser.Checked = True) Then
@@ -381,4 +381,11 @@ Public Class FrmAdmins
         cmd.ExecuteNonQuery()
     End Sub
 
+    Private Sub DtGrdAuteurs_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dtGrdAuteurs.CellContentClick
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
 End Class

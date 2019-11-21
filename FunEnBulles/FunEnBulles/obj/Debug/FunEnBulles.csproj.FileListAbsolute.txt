@@ -32,3 +32,5 @@ C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBull
 C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
 C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
 C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.baml

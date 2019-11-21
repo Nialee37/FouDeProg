@@ -69,7 +69,7 @@ Partial Class FrmAuteurs
         Me.GrpBxAuteur.Controls.Add(Me.lblNom)
         Me.GrpBxAuteur.Controls.Add(Me.txtNom)
         Me.GrpBxAuteur.Font = New System.Drawing.Font("Georgia", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GrpBxAuteur.Location = New System.Drawing.Point(20, 42)
+        Me.GrpBxAuteur.Location = New System.Drawing.Point(17, 241)
         Me.GrpBxAuteur.Name = "GrpBxAuteur"
         Me.GrpBxAuteur.Size = New System.Drawing.Size(581, 304)
         Me.GrpBxAuteur.TabIndex = 16
@@ -88,10 +88,10 @@ Partial Class FrmAuteurs
         '
         'txtNaiss
         '
-        Me.txtNaiss.Font = New System.Drawing.Font("Lucida Sans", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNaiss.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNaiss.Location = New System.Drawing.Point(134, 108)
         Me.txtNaiss.Name = "txtNaiss"
-        Me.txtNaiss.Size = New System.Drawing.Size(105, 25)
+        Me.txtNaiss.Size = New System.Drawing.Size(105, 24)
         Me.txtNaiss.TabIndex = 39
         '
         'lblBio
@@ -106,7 +106,7 @@ Partial Class FrmAuteurs
         '
         'txtBio
         '
-        Me.txtBio.Font = New System.Drawing.Font("Lucida Sans", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtBio.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBio.Location = New System.Drawing.Point(6, 172)
         Me.txtBio.Multiline = True
         Me.txtBio.Name = "txtBio"
@@ -136,10 +136,10 @@ Partial Class FrmAuteurs
         '
         'txtPrenom
         '
-        Me.txtPrenom.Font = New System.Drawing.Font("Lucida Sans", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPrenom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPrenom.Location = New System.Drawing.Point(354, 69)
         Me.txtPrenom.Name = "txtPrenom"
-        Me.txtPrenom.Size = New System.Drawing.Size(200, 25)
+        Me.txtPrenom.Size = New System.Drawing.Size(200, 24)
         Me.txtPrenom.TabIndex = 29
         '
         'lblCode
@@ -154,10 +154,10 @@ Partial Class FrmAuteurs
         '
         'txtCode
         '
-        Me.txtCode.Font = New System.Drawing.Font("Lucida Sans", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCode.Location = New System.Drawing.Point(70, 24)
         Me.txtCode.Name = "txtCode"
-        Me.txtCode.Size = New System.Drawing.Size(200, 25)
+        Me.txtCode.Size = New System.Drawing.Size(200, 24)
         Me.txtCode.TabIndex = 24
         '
         'lblNom
@@ -172,10 +172,10 @@ Partial Class FrmAuteurs
         '
         'txtNom
         '
-        Me.txtNom.Font = New System.Drawing.Font("Lucida Sans", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNom.Location = New System.Drawing.Point(70, 67)
         Me.txtNom.Name = "txtNom"
-        Me.txtNom.Size = New System.Drawing.Size(200, 25)
+        Me.txtNom.Size = New System.Drawing.Size(200, 24)
         Me.txtNom.TabIndex = 16
         '
         'dtGrdAuteurs
@@ -185,12 +185,12 @@ Partial Class FrmAuteurs
         Me.dtGrdAuteurs.AllowUserToResizeColumns = False
         Me.dtGrdAuteurs.AllowUserToResizeRows = False
         Me.dtGrdAuteurs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtGrdAuteurs.Location = New System.Drawing.Point(20, 352)
+        Me.dtGrdAuteurs.Location = New System.Drawing.Point(17, 140)
         Me.dtGrdAuteurs.MultiSelect = False
         Me.dtGrdAuteurs.Name = "dtGrdAuteurs"
         Me.dtGrdAuteurs.ReadOnly = True
         Me.dtGrdAuteurs.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dtGrdAuteurs.Size = New System.Drawing.Size(581, 177)
+        Me.dtGrdAuteurs.Size = New System.Drawing.Size(581, 95)
         Me.dtGrdAuteurs.TabIndex = 18
         '
         'lblTitre
@@ -286,7 +286,7 @@ Partial Class FrmAuteurs
         Me.btnSupprimer.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnSupprimer.Image = Global.FunEnBulles.My.Resources.Resources.supprimer_btn1
         Me.btnSupprimer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnSupprimer.Location = New System.Drawing.Point(15, 262)
+        Me.btnSupprimer.Location = New System.Drawing.Point(15, 154)
         Me.btnSupprimer.Name = "btnSupprimer"
         Me.btnSupprimer.Size = New System.Drawing.Size(154, 58)
         Me.btnSupprimer.TabIndex = 8

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Connexion" Height="494.492" Width="490.146">
     <Grid>
-        <Label Content="CONNEXION" Margin="115,31,0,0" VerticalAlignment="Top" Height="58" IsEnabled="False" Cursor="Hand" FontSize="36" FontFamily="Stencil" Foreground="#FF494949" HorizontalAlignment="Left" Width="223"/>
+        <Label Content="CONNEXION" Margin="182,31,0,0" VerticalAlignment="Top" Height="58" IsEnabled="False" Cursor="Hand" FontSize="48" FontFamily="Playbill" Foreground="#FF494949" HorizontalAlignment="Left" Width="156"/>
         <Button x:Name="btn_connexion" Content="Connexion" Margin="65,315,0,0" VerticalAlignment="Top" Height="33" FontSize="14" FontWeight="Bold" BorderBrush="{x:Null}" IsDefault="True" HorizontalAlignment="Left" Width="211" Cursor="Hand"/>
         <Button x:Name="btn_nouveauCompte" Content="Créer un compte" Margin="65,353,0,0" VerticalAlignment="Top" Height="36" FontSize="14" BorderBrush="{x:Null}" HorizontalAlignment="Left" Width="211" Cursor="Hand"/>
         <TextBlock HorizontalAlignment="Left" Margin="65,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="134" Foreground="{x:Null}"><Hyperlink Click="Hyperlink_Click"><Run Text="Mot de passe oublié"/></Hyperlink></TextBlock>
