@@ -34,5 +34,5 @@ C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBull
 C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
 C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.g.cs
 C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.baml
-C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Edition_Util.g.cs
-C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Edition_Util.baml
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.baml

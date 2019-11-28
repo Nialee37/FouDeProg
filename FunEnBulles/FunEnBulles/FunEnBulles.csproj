@@ -92,7 +92,7 @@
     <Compile Include="Connexion.xaml.cs">
       <DependentUpon>Connexion.xaml</DependentUpon>
     </Compile>
-    <Page Include="Edition_Util.xaml">
+    <Page Include="Emprunt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -102,8 +102,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Edition_Util.xaml.cs">
-      <DependentUpon>Edition_Util.xaml</DependentUpon>
+    <Compile Include="Emprunt.xaml.cs">
+      <DependentUpon>Emprunt.xaml</DependentUpon>
     </Compile>
     <Compile Include="New_Mdp.xaml.cs">
       <DependentUpon>New_Mdp.xaml</DependentUpon>
