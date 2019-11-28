@@ -23,5 +23,12 @@ namespace FunEnBulles
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Connexion fenetre = new Connexion();
+            fenetre.Show();
+            this.Close();
+        }
     }
 }

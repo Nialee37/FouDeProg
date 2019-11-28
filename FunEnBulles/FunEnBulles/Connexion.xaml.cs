@@ -30,5 +30,10 @@ namespace FunEnBulles
             fenetre.Show();
             this.Close();
         }
+
+        private void Btn_connexion_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

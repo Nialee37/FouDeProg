@@ -7,31 +7,31 @@
         mc:Ignorable="d"
         Title="Edition_Util" Height="450" Width="800">
     <Grid>
-        <Button HorizontalAlignment="Left" Height="20" Margin="722,48,0,0" VerticalAlignment="Top" Width="20">
+        <Button HorizontalAlignment="Left" Height="20" Margin="744,33,0,0" VerticalAlignment="Top" Width="20">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/image/rechercher.png"/>
             </Button.Background>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="597,48,0,0" TextWrapping="Wrap" Text="TextBox" Width="125" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="619,33,0,0" TextWrapping="Wrap" Width="125" VerticalAlignment="Top" SpellCheck.IsEnabled="True"/>
 
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <DataGrid HorizontalAlignment="Left" Height="230" Margin="379,113,0,0" VerticalAlignment="Top" Width="394"/>
-        <Label Content="Nom" HorizontalAlignment="Left" Margin="99,68,0,0" VerticalAlignment="Top"/>
-        <Label Content="Prenom" HorizontalAlignment="Left" Margin="99,99,0,0" VerticalAlignment="Top"/>
-        <Label Content="Ville" HorizontalAlignment="Left" Margin="99,130,0,0" VerticalAlignment="Top" Cursor="ville"/>
-        <Label Content="Code postal" HorizontalAlignment="Left" Margin="99,156,0,0" VerticalAlignment="Top"/>
-        <Label Content="Nom" HorizontalAlignment="Left" Margin="99,68,0,0" VerticalAlignment="Top"/>
-        <Label Content="Telephone" HorizontalAlignment="Left" Margin="99,213,0,0" VerticalAlignment="Top"/>
-        <Label Content="Adresse" HorizontalAlignment="Left" Margin="99,187,0,0" VerticalAlignment="Top"/>
-        <Label Content="Date de naissance" HorizontalAlignment="Left" Margin="99,244,0,0" VerticalAlignment="Top"/>
-        <Label Content="Email" HorizontalAlignment="Left" Margin="99,270,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="223,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <DataGrid HorizontalAlignment="Left" Height="288" Margin="308,114,0,0" VerticalAlignment="Top" Width="457"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="40,52,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" Margin="40,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ville" HorizontalAlignment="Left" Margin="40,114,0,0" VerticalAlignment="Top" Cursor="ville"/>
+        <Label Content="Code postal" HorizontalAlignment="Left" Margin="40,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="40,52,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telephone" HorizontalAlignment="Left" Margin="40,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="Adresse" HorizontalAlignment="Left" Margin="40,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date de naissance" HorizontalAlignment="Left" Margin="40,228,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="40,254,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="164,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
