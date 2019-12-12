@@ -53,7 +53,9 @@
     <StartupObject>FunEnBulles.App</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
@@ -96,6 +98,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Gestion_Utilisateur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="New_Mdp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -104,6 +110,9 @@
   <ItemGroup>
     <Compile Include="Emprunt.xaml.cs">
       <DependentUpon>Emprunt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Utilisateur.xaml.cs">
+      <DependentUpon>Gestion_Utilisateur.xaml</DependentUpon>
     </Compile>
     <Compile Include="New_Mdp.xaml.cs">
       <DependentUpon>New_Mdp.xaml</DependentUpon>

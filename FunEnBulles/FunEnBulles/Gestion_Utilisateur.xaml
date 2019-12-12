@@ -1,0 +1,40 @@
+﻿<Window x:Class="FunEnBulles.Gestion_Utilisateur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FunEnBulles"
+        mc:Ignorable="d"
+        Title="Gestion_Utilisateur" Height="668" Width="1048">
+    <Grid>
+        <GroupBox Header="" HorizontalAlignment="Left" Height="428" Margin="54,116,0,0" VerticalAlignment="Top" Width="523">
+            <Grid>
+                <Label Content="Matricule" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_matricule" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Nom" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_nom" HorizontalAlignment="Left" Height="23" Margin="10,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Prénom" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_prenom" HorizontalAlignment="Left" Height="23" Margin="10,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Email" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_email" HorizontalAlignment="Left" Height="23" Margin="10,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Date de naissance" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_date_de_naissance" HorizontalAlignment="Left" Height="23" Margin="191,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Adresse" HorizontalAlignment="Left" Margin="191,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.351,0.397"/>
+                <TextBox x:Name="txt_adresse" HorizontalAlignment="Left" Height="23" Margin="191,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Code postal" HorizontalAlignment="Left" Margin="191,127,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_code_postal" HorizontalAlignment="Left" Height="23" Margin="191,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Ville" HorizontalAlignment="Left" Margin="191,192,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_ville" HorizontalAlignment="Left" Height="23" Margin="191,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <RadioButton GroupName="Famille" Content="RadioButton" HorizontalAlignment="Left" Margin="361,30,0,0" VerticalAlignment="Top"/>
+                <RadioButton GroupName="Famille" Content="RadioButton" HorizontalAlignment="Left" Margin="361,54,0,0" VerticalAlignment="Top"/>
+                <RadioButton GroupName="Adherent" Content="RadioButton" HorizontalAlignment="Left" Margin="361,87,0,0" VerticalAlignment="Top"/>
+                <RadioButton GroupName="Adherent" Content="RadioButton" HorizontalAlignment="Left" Margin="361,115,0,0" VerticalAlignment="Top"/>
+                <Label Content="Téléphone" HorizontalAlignment="Left" Margin="361,191,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_telephone" HorizontalAlignment="Left" Height="23" Margin="361,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            </Grid>
+        </GroupBox>
+        <Label Content="GESTION UTILISATEUR" HorizontalAlignment="Left" Margin="212,10,0,0" VerticalAlignment="Top" FontSize="72"/>
+        <Button Content="Ajouter" HorizontalAlignment="Left" Margin="843,206,0,0" VerticalAlignment="Top" Width="75" Click="cmd_ajouter"/>
+    </Grid>
+</Window>
