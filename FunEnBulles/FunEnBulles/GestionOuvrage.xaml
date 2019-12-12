@@ -1,0 +1,40 @@
+﻿<Window x:Class="FunEnBulles.GestionOuvrage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FunEnBulles"
+        mc:Ignorable="d"
+        Title="GestionOuvrage" Height="668" Width="1048" Background="#FF404040">
+    <Grid>
+        <Button x:Name="btn_Ajouter" Content="Ajouter" HorizontalAlignment="Left" Margin="895,145,0,0" VerticalAlignment="Top" Width="115" Height="52" Click="Btn_Ajouter_Click" BorderBrush="White"/>
+        <GroupBox Header="" HorizontalAlignment="Left" Height="326" Margin="167,10,0,0" VerticalAlignment="Top" Width="613">
+            <Grid HorizontalAlignment="Left" Height="307" Margin="0,0,-2,-3" VerticalAlignment="Top" Width="607">
+                <Label x:Name="lbl_isbn" Content="ISBN" HorizontalAlignment="Left" Margin="74,13,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_titre" Content="Titre" HorizontalAlignment="Left" Margin="75,80,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_numTome" Content="Numéro Tome" HorizontalAlignment="Left" Margin="50,142,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_resume" Content="Resume : " HorizontalAlignment="Left" Margin="364,98,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_format" Content="Format" HorizontalAlignment="Left" Margin="68,198,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_image" Content="Ajouter une couverture" HorizontalAlignment="Left" Margin="29,244,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_nbPage" Content="Pages" HorizontalAlignment="Left" Margin="221,223,0,0" VerticalAlignment="Top" Width="47" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_dateParution" Content="Date de parution : " HorizontalAlignment="Left" Margin="345,53,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_dateCreation" Content="Date de creation : " HorizontalAlignment="Left" Margin="347,10,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_categorie" Content="Catégorie" HorizontalAlignment="Left" Margin="216,10,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_genre" Content="Genre" HorizontalAlignment="Left" Margin="221,83,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Label x:Name="lbl_prixUnitaire" Content="Prix unitaire" HorizontalAlignment="Left" Margin="206,158,0,0" VerticalAlignment="Top" Width="78" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <TextBox x:Name="txt_isbn" HorizontalAlignment="Left" Height="23" Margin="35,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="1"/>
+                <TextBox x:Name="txt_Titre" HorizontalAlignment="Left" Height="22" Margin="36,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="2"/>
+                <TextBox x:Name="txt_numTome" HorizontalAlignment="Left" Height="22" Margin="67,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="3"/>
+                <TextBox x:Name="txt_resume" HorizontalAlignment="Left" Height="165" Margin="336,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="12"/>
+                <TextBox x:Name="txt_image" HorizontalAlignment="Left" Height="24" Margin="35,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="5"/>
+                <TextBox x:Name="txt_nbrPage" HorizontalAlignment="Left" Height="23" Margin="231,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="9"/>
+                <TextBox x:Name="txt_categorie" HorizontalAlignment="Left" Height="22" Margin="190,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="6"/>
+                <TextBox x:Name="txt_Genre" HorizontalAlignment="Left" Height="23" Margin="187,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="7"/>
+                <TextBox x:Name="txt_prixUnite" HorizontalAlignment="Left" Height="23" Margin="186,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="8"/>
+                <ComboBox x:Name="cb_format" HorizontalAlignment="Left" Margin="36,224,0,0" VerticalAlignment="Top" Width="118" TabIndex="4" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="Red"/>
+                <DatePicker x:Name="dp_dateCreation" HorizontalAlignment="Left" Margin="336,31,0,0" VerticalAlignment="Top" Width="155" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="10"/>
+                <DatePicker x:Name="dp_dateParution" HorizontalAlignment="Left" Margin="336,79,0,0" VerticalAlignment="Top" Width="155" Background="#FFBFCDE0" BorderBrush="{x:Null}" TabIndex="11"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
