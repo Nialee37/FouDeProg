@@ -59,3 +59,11 @@ F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\
 F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
 F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
 F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\lib_funEnBulles.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\MySql.Data.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\Google.Protobuf.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\BouncyCastle.Crypto.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\Renci.SshNet.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\lib_funEnBulles.pdb
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\MySql.Data.xml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CopyComplete

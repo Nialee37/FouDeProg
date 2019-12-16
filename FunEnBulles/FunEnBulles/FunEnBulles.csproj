@@ -76,6 +76,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Salarie.cs" />
     <Page Include="Acceuil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -162,6 +163,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="image\rechercher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lib_funEnBulles\lib_funEnBulles.csproj">
+      <Project>{582D3132-B2A9-4A32-9697-4FB7260DA4D7}</Project>
+      <Name>lib_funEnBulles</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

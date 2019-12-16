@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Data;
 using System.Configuration;
 using MySql.Data.MySqlClient;
+using lib_funEnBulles;
 
 namespace FunEnBulles
 {
@@ -32,6 +33,7 @@ namespace FunEnBulles
 
         private void cmd_ajouter(object sender, RoutedEventArgs e)
         {
+            /*
             // Création de l'objet Command et association à la procédure stockée
             MySqlCommand cmd_ajout_utilisateur = new MySqlCommand();
             cmd_ajout_utilisateur.CommandText = "utilisateur_ajouter";
@@ -72,6 +74,21 @@ namespace FunEnBulles
             {
 
             }
+            */
+            string matricule = txt_matricule.Text;
+            string nom = txt_nom.Text;
+            string prenom = txt_prenom.Text;
+            string ville = txt_ville.Text;
+            string codePostal = txt_code_postal.Text;
+            string adresse = txt_adresse.Text;
+            string telephone = txt_telephone.Text;
+            string email = txt_email.Text;
+            string pseudo = "";
+            string droit = "";
+            DateTime dateNaissance = dp_date_naissance.DisplayDate;
+
+            Utilisateur unUtilisateur = new Utilisateur(matricule, nom, prenom, ville, codePostal, adresse, telephone, email, pseudo, droit, dateNaissance);
+            
         }
 
         private bool ConnexionBdd()

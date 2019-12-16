@@ -18,19 +18,19 @@
                 <Label Content="Email" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_email" HorizontalAlignment="Left" Height="23" Margin="10,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                 <Label Content="Date de naissance" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top"/>
-                <TextBox x:Name="txt_date_de_naissance" HorizontalAlignment="Left" Height="23" Margin="191,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                 <Label Content="Adresse" HorizontalAlignment="Left" Margin="191,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.351,0.397"/>
                 <TextBox x:Name="txt_adresse" HorizontalAlignment="Left" Height="23" Margin="191,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                 <Label Content="Code postal" HorizontalAlignment="Left" Margin="191,127,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_code_postal" HorizontalAlignment="Left" Height="23" Margin="191,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                 <Label Content="Ville" HorizontalAlignment="Left" Margin="191,192,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_ville" HorizontalAlignment="Left" Height="23" Margin="191,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <RadioButton GroupName="Famille" Content="RadioButton" HorizontalAlignment="Left" Margin="361,30,0,0" VerticalAlignment="Top"/>
-                <RadioButton GroupName="Famille" Content="RadioButton" HorizontalAlignment="Left" Margin="361,54,0,0" VerticalAlignment="Top"/>
-                <RadioButton GroupName="Adherent" Content="RadioButton" HorizontalAlignment="Left" Margin="361,87,0,0" VerticalAlignment="Top"/>
-                <RadioButton GroupName="Adherent" Content="RadioButton" HorizontalAlignment="Left" Margin="361,115,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rdo_chef_famille" GroupName="Famille" Content="Chef de famille" HorizontalAlignment="Left" Margin="361,30,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rdo_membre_famille" GroupName="Famille" Content="Membre de famille" HorizontalAlignment="Left" Margin="361,54,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rdo_adherent" GroupName="Adherent" Content="Adhérent" HorizontalAlignment="Left" Margin="361,87,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rdo_non_adherent" GroupName="Adherent" Content="Non Adhérent" HorizontalAlignment="Left" Margin="361,115,0,0" VerticalAlignment="Top"/>
                 <Label Content="Téléphone" HorizontalAlignment="Left" Margin="361,191,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_telephone" HorizontalAlignment="Left" Height="23" Margin="361,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <DatePicker x:Name="dp_date_naissance" HorizontalAlignment="Left" Margin="191,30,0,0" VerticalAlignment="Top"/>
 
             </Grid>
         </GroupBox>
