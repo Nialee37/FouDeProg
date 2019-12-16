@@ -75,6 +75,11 @@ namespace FunEnBulles
 
             }
             */
+
+            /*
+             * Finir contrôle des dates
+             * 
+             */
             string matricule = txt_matricule.Text;
             string nom = txt_nom.Text;
             string prenom = txt_prenom.Text;
@@ -85,9 +90,27 @@ namespace FunEnBulles
             string email = txt_email.Text;
             string pseudo = "";
             string droit = "";
-            DateTime dateNaissance = dp_date_naissance.DisplayDate;
+            DateTime dateNaissance = dp_date_naissance.SelectedDate.Value.Date;
 
-            Utilisateur unUtilisateur = new Utilisateur(matricule, nom, prenom, ville, codePostal, adresse, telephone, email, pseudo, droit, dateNaissance);
+            DateTime localDate = DateTime.Now;
+
+            Console.WriteLine(dateNaissance);
+            Console.WriteLine(localDate);
+            if(dateNaissance > localDate)
+            {
+                Console.WriteLine("Date de naissance supérieur à aujourd'hui");
+            }
+            else
+            {
+                Console.WriteLine("Date de naissance inférieur à aujourd'hui");
+            }
+
+            if((String.IsNullOrWhiteSpace(matricule) || String.IsNullOrWhiteSpace(nom) || String.IsNullOrWhiteSpace(prenom) || String.IsNullOrWhiteSpace(ville) || String.IsNullOrWhiteSpace(codePostal) || String.IsNullOrWhiteSpace(adresse) || String.IsNullOrWhiteSpace(telephone) || String.IsNullOrWhiteSpace(email) || String.IsNullOrWhiteSpace(pseudo) || String.IsNullOrWhiteSpace(droit)))
+            {
+                
+            }
+
+            //Utilisateur unUtilisateur = new Utilisateur(matricule, nom, prenom, ville, codePostal, adresse, telephone, email, pseudo, droit, dateNaissance);
             
         }
 
