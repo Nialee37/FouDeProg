@@ -88,30 +88,33 @@ namespace FunEnBulles
             string adresse = txt_adresse.Text;
             string telephone = txt_telephone.Text;
             string email = txt_email.Text;
-            string pseudo = "";
-            string droit = "";
-            DateTime dateNaissance = dp_date_naissance.SelectedDate.Value.Date;
-
-            DateTime localDate = DateTime.Now;
-
-            Console.WriteLine(dateNaissance);
-            Console.WriteLine(localDate);
-            if(dateNaissance > localDate)
+            string pseudo = "a";
+            string droit = "a";
+            DateTime localDate = DateTime.Now; // Date actuelle pour la comparaison avec la date de naissance
+            DateTime dateNaissance = localDate;
+            try
             {
-                Console.WriteLine("Date de naissance supérieur à aujourd'hui");
+                dateNaissance = dp_date_naissance.SelectedDate.Value.Date; // Si aucune date n'est sélectionnée
+            }
+            catch
+            {
+                Console.WriteLine("Sélectionnez une date");
+                MessageBox.Show("Sélectionnez une date");
+            }
+            bool dateValide = dateNaissance.Date >= localDate.Date; // True : Invalide / False : Valide
+
+            if(!(String.IsNullOrWhiteSpace(matricule) || String.IsNullOrWhiteSpace(nom) || String.IsNullOrWhiteSpace(prenom) || String.IsNullOrWhiteSpace(ville) || String.IsNullOrWhiteSpace(codePostal) || String.IsNullOrWhiteSpace(adresse) || String.IsNullOrWhiteSpace(telephone) || String.IsNullOrWhiteSpace(email) || String.IsNullOrWhiteSpace(pseudo) || String.IsNullOrWhiteSpace(droit) || dateValide))
+            {
+                // Champs valides
+                Console.WriteLine("Champs valides");
+                //Utilisateur unUtilisateur = new Utilisateur(matricule, nom, prenom, ville, codePostal, adresse, telephone, email, pseudo, droit, dateNaissance);
             }
             else
             {
-                Console.WriteLine("Date de naissance inférieur à aujourd'hui");
+                // Champs invalides
+                Console.WriteLine("Champs invalides");
+                MessageBox.Show("Un ou plusieurs champs sont invalides");
             }
-
-            if((String.IsNullOrWhiteSpace(matricule) || String.IsNullOrWhiteSpace(nom) || String.IsNullOrWhiteSpace(prenom) || String.IsNullOrWhiteSpace(ville) || String.IsNullOrWhiteSpace(codePostal) || String.IsNullOrWhiteSpace(adresse) || String.IsNullOrWhiteSpace(telephone) || String.IsNullOrWhiteSpace(email) || String.IsNullOrWhiteSpace(pseudo) || String.IsNullOrWhiteSpace(droit)))
-            {
-                
-            }
-
-            //Utilisateur unUtilisateur = new Utilisateur(matricule, nom, prenom, ville, codePostal, adresse, telephone, email, pseudo, droit, dateNaissance);
-            
         }
 
         private bool ConnexionBdd()
