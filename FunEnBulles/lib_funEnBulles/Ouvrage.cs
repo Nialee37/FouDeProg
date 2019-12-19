@@ -15,12 +15,11 @@ namespace lib_funEnBulles
         private DateTime dateParution;
         private DateTime dateCreation;
         private String categorie;
-        private String genre;
         private double prixUnitaire;
         #endregion
 
         #region Constructeur
-        public Ouvrage(String _isbn, string _titre, int _numTome, String _resume, String _format, String _image, int _nbPage, DateTime _dateParution, DateTime _dateCreation, String _categorie, String _genre, double _prixUnitaire)
+        public Ouvrage(String _isbn, string _titre, int _numTome, String _resume, String _format, String _image, int _nbPage, DateTime _dateParution, DateTime _dateCreation, String _categorie, double _prixUnitaire)
         {
             Isbn = _isbn;
             Titre = _titre;
@@ -32,7 +31,6 @@ namespace lib_funEnBulles
             DateParution = _dateParution;
             DateCreation = _dateCreation;
             Categorie = _categorie;
-            Genre = _genre;
             PrixUnitaire = _prixUnitaire;
 
         }
@@ -49,7 +47,6 @@ namespace lib_funEnBulles
         public DateTime DateParution { get => dateParution; set => dateParution = value; }
         public DateTime DateCreation { get => dateCreation; set => dateCreation = value; }
         public string Categorie { get => categorie; set => categorie = value; }
-        public string Genre { get => genre; set => genre = value; }
         public double PrixUnitaire { get => prixUnitaire; set => prixUnitaire = value; }
 
 

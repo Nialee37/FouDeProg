@@ -5,37 +5,45 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FunEnBulles"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#FF535353">
-        <GroupBox Header="" HorizontalAlignment="Left" Height="326" Margin="85,39,0,0" VerticalAlignment="Top" Width="613">
-            <Grid HorizontalAlignment="Left" Height="307" Margin="0,0,-2,-3" VerticalAlignment="Top" Width="607">
-                <Label x:Name="lbl_isbn" Content="ISBN" HorizontalAlignment="Left" Margin="74,13,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_titre" Content="Titre" HorizontalAlignment="Left" Margin="75,80,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_numTome" Content="Numéro Tome" HorizontalAlignment="Left" Margin="50,142,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_resume" Content="Resume : " HorizontalAlignment="Left" Margin="364,98,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_format" Content="Format" HorizontalAlignment="Left" Margin="68,198,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_image" Content="Ajouter une couverture" HorizontalAlignment="Left" Margin="29,244,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_nbPage" Content="Pages" HorizontalAlignment="Left" Margin="221,223,0,0" VerticalAlignment="Top" Width="47" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_dateParution" Content="Date de parution : " HorizontalAlignment="Left" Margin="345,53,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_dateCreation" Content="Date de creation : " HorizontalAlignment="Left" Margin="347,10,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_categorie" Content="Catégorie" HorizontalAlignment="Left" Margin="216,10,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_genre" Content="Genre" HorizontalAlignment="Left" Margin="221,83,0,0" VerticalAlignment="Top" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <Label x:Name="lbl_prixUnitaire" Content="Prix unitaire" HorizontalAlignment="Left" Margin="206,158,0,0" VerticalAlignment="Top" Width="78" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
-                <TextBox x:Name="txt_isbn" HorizontalAlignment="Left" Height="23" Margin="35,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="1"/>
-                <TextBox x:Name="txt_Titre" HorizontalAlignment="Left" Height="22" Margin="36,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="2"/>
-                <TextBox x:Name="txt_numTome" HorizontalAlignment="Left" Height="22" Margin="67,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="3"/>
-                <TextBox x:Name="txt_resume" HorizontalAlignment="Left" Height="165" Margin="336,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="12"/>
-                <TextBox x:Name="txt_image" HorizontalAlignment="Left" Height="24" Margin="35,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="5"/>
-                <TextBox x:Name="txt_nbrPage" HorizontalAlignment="Left" Height="23" Margin="231,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="9"/>
-                <TextBox x:Name="txt_categorie" HorizontalAlignment="Left" Height="22" Margin="190,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="6"/>
-                <TextBox x:Name="txt_Genre" HorizontalAlignment="Left" Height="23" Margin="187,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="7"/>
-                <TextBox x:Name="txt_prixUnite" HorizontalAlignment="Left" Height="23" Margin="186,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="8"/>
-                <ComboBox x:Name="cb_format" HorizontalAlignment="Left" Margin="36,224,0,0" VerticalAlignment="Top" Width="118" TabIndex="4" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="Red"/>
-                <DatePicker x:Name="dp_dateCreation" HorizontalAlignment="Left" Margin="336,31,0,0" VerticalAlignment="Top" Width="155" BorderBrush="{x:Null}" Background="#FFBFCDE0" TabIndex="10"/>
-                <DatePicker x:Name="dp_dateParution" HorizontalAlignment="Left" Margin="336,79,0,0" VerticalAlignment="Top" Width="155" Background="#FFBFCDE0" BorderBrush="{x:Null}" TabIndex="11"/>
+             d:DesignHeight="600" d:DesignWidth="1020">
+    <Grid>
+        <Label Content="Gestion des Editeurs" HorizontalAlignment="Left" Height="74" Margin="289,5,0,0" VerticalAlignment="Top" Width="259" FontSize="24" FontWeight="Bold" FontStyle="Italic" Foreground="White"/>
+
+        <GroupBox x:Name="gpb_saisie_editeur" Header="Zone de saisie" HorizontalAlignment="Left" Height="334" Margin="169,51,0,0" VerticalAlignment="Top" Width="567" Cursor="" Foreground="White">
+            <Grid x:Name="g_editeur" HorizontalAlignment="Left" Height="336" Margin="-16,-12,-2,-12" VerticalAlignment="Top" Width="573">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="245*"/>
+                    <ColumnDefinition Width="267*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="lbl_nom" Content="Nom" HorizontalAlignment="Left" Height="34" Margin="25,10,0,0" VerticalAlignment="Top" Width="42" Grid.Column="1" FontSize="14" FontStyle="Italic" Foreground="White"/>
+                <Label x:Name="lbl_adresse" Content="Adresse" HorizontalAlignment="Left" Margin="25,90,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.036,1.17" FontSize="14" FontStyle="Italic" Foreground="White"/>
+                <Label x:Name="lbl_code_postal" Content="Code postal" HorizontalAlignment="Left" Height="29" Margin="25,185,0,0" VerticalAlignment="Top" Width="93" FontStyle="Italic" FontSize="14" Foreground="White"/>
+                <Label x:Name="lbl_ville" Content="Ville " HorizontalAlignment="Left" Margin="25,90,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.101,-3.729" Grid.Column="1" FontStyle="Italic" FontSize="14" Foreground="White"/>
+                <Label x:Name="lbl_email" Content="E mail" HorizontalAlignment="Left" Height="29" Margin="25,175,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" FontSize="14" Foreground="White"/>
+                <Label x:Name="lbl_telephone" Content="Telephone" HorizontalAlignment="Left" Height="30" Margin="25,250,0,0" VerticalAlignment="Top" Width="93" FontSize="14" FontStyle="Italic" Foreground="White"/>
+                <Label x:Name="lbl_fax" Content="Fax" HorizontalAlignment="Left" Height="25" Margin="25,250,0,0" VerticalAlignment="Top" Width="37" RenderTransformOrigin="-0.924,-4.292" Grid.Column="1" FontSize="14" FontStyle="Italic" Foreground="White"/>
+
+                <TextBox x:Name="txt_matricule" HorizontalAlignment="Left" Height="23" Margin="25,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBFCDE0"/>
+                <Label x:Name="lbl_matricule" Content="Matricule" HorizontalAlignment="Left" Height="26" Margin="25,10,0,0" VerticalAlignment="Top" Width="68" FontSize="14" FontStyle="Italic" Foreground="White"/>
+                <TextBox x:Name="txt_adresse" HorizontalAlignment="Left" Height="42" Margin="25,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" Background="#FFBFCDE0"/>
+                <TextBox x:Name="txt_ville" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="25,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="#FFBFCDE0"/>
+                <TextBox x:Name="txt_code_postal" HorizontalAlignment="Left" Height="26" Margin="25,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Background="#FFBFCDE0"/>
+                <TextBox x:Name="txt_email" HorizontalAlignment="Left" Height="30" Margin="25,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1" Background="#FFBFCDE0"/>
+                <TextBox x:Name="txt_nom" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="25,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="#FFBFCDE0"/>
+                <TextBox x:Name="txt_fax" HorizontalAlignment="Left" Height="30" Margin="25,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Grid.Column="1" Background="#FFBFCDE0"/>
+                <TextBox x:Name="txt_telephone" HorizontalAlignment="Left" Height="30" Margin="25,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="#FFBFCDE0"/>
+
             </Grid>
         </GroupBox>
-        <Button x:Name="btn_Ajouter" Content="Ajouter" HorizontalAlignment="Left" Margin="515,388,0,0" VerticalAlignment="Top" Width="115" Height="52" Click="Btn_Ajouter_Click" BorderBrush="White"/>
+
+        <DataGrid x:Name="dtg_vue_editeur" HorizontalAlignment="Left" Height="183" Margin="10,407,0,-140" VerticalAlignment="Top" Width="760"/>
+        <Button Content="Ajouter" HorizontalAlignment="Left" Height="55" Margin="862,168,-210,0" VerticalAlignment="Top" Width="148" />
+        <Button Content="Modifier" HorizontalAlignment="Left" Height="55" Margin="862,258,-210,0" VerticalAlignment="Top" Width="148" />
+        <Button Content="Supprimer" HorizontalAlignment="Left" Height="55" Margin="862,347,-210,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Zone de visualisation" HorizontalAlignment="Left" Margin="10,378,0,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="800,79,-210,0" TextWrapping="Wrap" Text="Saisir une valeur" VerticalAlignment="Top" Width="210"/>
+        <Label Content="Rechercher : " HorizontalAlignment="Left" Height="28" Margin="810,51,-131,0" VerticalAlignment="Top" Width="121" FontSize="14" Foreground="White"/>
 
     </Grid>
 </UserControl>

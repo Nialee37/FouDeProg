@@ -31,7 +31,15 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFDEDEDE">
-        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="600" Width="1020"/>
+        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="600" Width="1020" Background="#FF535353">
+
+            <Grid HorizontalAlignment="Left" Height="47" Margin="964,10,0,0" VerticalAlignment="Top" Width="46">
+                <Grid.Background>
+                    <ImageBrush ImageSource="C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\image\croix.png"/>
+                </Grid.Background>
+            </Grid>
+            <Button Content="Déconnexion" HorizontalAlignment="Right" Margin="0,540,10,0" VerticalAlignment="Top" Width="168" Height="47" FontSize="20" FontFamily="Arial" Background="#FFBDBDBD" BorderBrush="{x:Null}" Foreground="White" Padding="1"/>
+        </Grid>
         <Grid x:Name="GridMenu" Width="60" HorizontalAlignment="Left" Background="#FF31577E">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="2" ShadowDepth="1" Color="#FFAEAEAE"/>
@@ -55,20 +63,20 @@
 
                     <Image Height="50" VerticalAlignment="Top"/>
                 </Grid>
-                <ListView x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged">
+                <ListView x:Name="ListViewMenu" Foreground="#FFBFCDE0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged" Background="#FF3B3355">
                     <ListViewItem x:Name="ItemHome" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Account" Height="25" Width="25" Margin="10"/>
                             <TextBlock Text="Utilisateurs" VerticalAlignment="Center" Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem x:Name="ItemCreate" Height="60">
+                    <ListViewItem x:Name="ItemEditeur" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="PencilBoxOutline" Height="25" Width="25" Margin="10"/>
                             <TextBlock Text="Editeurs" VerticalAlignment="Center" Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem x:Name="livre"  Height="60">
+                    <ListViewItem x:Name="ItemOuvrage"  Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="BookOpenVariant" Height="25" Width="25" Margin="10"/>
                             <TextBlock Text="Ouvrages" VerticalAlignment="Center"  Margin="20 10"/>
@@ -86,7 +94,7 @@
                             <TextBlock Text="Auteurs / Serie" VerticalAlignment="Center"  Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem Height="60">
+                    <ListViewItem x:Name="ItemExemplaire" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="BookMultiple" Height="25" Width="25" Margin="10"/>
                             <TextBlock Text="Exemplaires" VerticalAlignment="Center"  Margin="20 10"/>

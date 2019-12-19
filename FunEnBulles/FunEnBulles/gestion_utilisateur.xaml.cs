@@ -1,5 +1,4 @@
-﻿using lib_funEnBulles;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,11 +23,6 @@ namespace FunEnBulles
         public gestion_utilisateur()
         {
             InitializeComponent();
-        }
-
-        private void Btn_Ajouter_Click(object sender, RoutedEventArgs e)
-        {
-            Ouvrage unOubrage = new Ouvrage(txt_isbn.Text, txt_Titre.Text, int.Parse(txt_numTome.Text), txt_resume.Text, cb_format.Text, txt_image.Text, int.Parse(txt_nbrPage.Text), DateTime.Parse(dp_dateParution.Text), DateTime.Parse(dp_dateCreation.Text), txt_categorie.Text, txt_Genre.Text, double.Parse(txt_prixUnite.Text));
         }
     }
 }

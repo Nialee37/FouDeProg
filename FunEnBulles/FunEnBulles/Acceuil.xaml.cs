@@ -38,14 +38,21 @@ namespace FunEnBulles
 
         private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            UserControl usc = null;
             GridMain.Children.Clear();
 
             switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
             {
-                case "ItemHome":
-                    gestion_utilisateur unOuvrage = new gestion_utilisateur();
+                case "ItemEditeur":
+                    gestion_utilisateur unUtilisateur = new gestion_utilisateur();
+                    GridMain.Children.Add(unUtilisateur);
+                    break;
+                case "ItemOuvrage":
+                    gestion_ouvrage unOuvrage = new gestion_ouvrage();
                     GridMain.Children.Add(unOuvrage);
+                    break;
+                case "ItemExemplaire":
+                    gestion_exemplaire unExemplaire = new gestion_exemplaire();
+                    GridMain.Children.Add(unExemplaire);
                     break;
                 default:
                     break;
