@@ -164,9 +164,9 @@
     <None Include="image\rechercher.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\lib_funEnBulles\lib_funEnBulles.csproj">
-      <Project>{582D3132-B2A9-4A32-9697-4FB7260DA4D7}</Project>
-      <Name>lib_funEnBulles</Name>
+    <ProjectReference Include="..\lib_funEnBulles2\lib_funEnBulles2.csproj">
+      <Project>{2ce80780-02d9-4014-94fe-b6fea1a6af83}</Project>
+      <Name>lib_funEnBulles2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,7 +9,7 @@
     <Grid>
         <GroupBox Header="" HorizontalAlignment="Left" Height="428" Margin="54,116,0,0" VerticalAlignment="Top" Width="523">
             <Grid>
-                <Label Content="Matricule" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <Label Content="Numéro de carte" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_matricule" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                 <Label Content="Nom" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_nom" HorizontalAlignment="Left" Height="23" Margin="10,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
@@ -30,7 +30,7 @@
                 <RadioButton x:Name="rdo_non_adherent" GroupName="Adherent" Content="Non Adhérent" HorizontalAlignment="Left" Margin="361,115,0,0" VerticalAlignment="Top"/>
                 <Label Content="Téléphone" HorizontalAlignment="Left" Margin="361,191,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txt_telephone" HorizontalAlignment="Left" Height="23" Margin="361,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <DatePicker x:Name="dp_date_naissance" HorizontalAlignment="Left" Margin="191,30,0,0" VerticalAlignment="Top"/>
+                <DatePicker x:Name="dp_date_naissance" HorizontalAlignment="Left" Margin="191,30,0,0" VerticalAlignment="Top" Height="23"/>
 
             </Grid>
         </GroupBox>
