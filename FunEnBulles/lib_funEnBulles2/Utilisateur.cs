@@ -31,7 +31,7 @@ namespace lib_funEnBulles
             _Email = email;
             _Pseudonyme = pseudo;
         }
-
+        
         public string NumeroCarte { get => _NumeroCarte; set => _NumeroCarte = value; }
         public string Nom { get => _Nom; set => _Nom = value; }
         public string Prenom { get => _Prenom; set => _Prenom = value; }

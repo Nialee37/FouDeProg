@@ -28,7 +28,12 @@ namespace FunEnBulles
         public Gestion_Utilisateur()
         {
             InitializeComponent();
-            
+            datagrid_listing.IsReadOnly = true;
+
+            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
+            datagrid_listing.ItemsSource = vm_utilisateur.Afficher_Utilisateur();
+
+            Actualiser_Combobox();
         }
 
         private void cmd_ajouter(object sender, RoutedEventArgs e)
@@ -42,7 +47,7 @@ namespace FunEnBulles
             string adresse = txt_adresse.Text;
             string telephone = txt_telephone.Text;
             string email = txt_email.Text;
-            string pseudo = "a";
+            string pseudo = txt_pseudonyme.Text;
             DateTime localDate = DateTime.Now; // Date actuelle pour la comparaison avec la date de naissance
             DateTime dateNaissance = localDate;
             try
@@ -69,6 +74,76 @@ namespace FunEnBulles
                 // Champs invalides
                 Console.WriteLine("Champs invalides");
                 MessageBox.Show("Un ou plusieurs champs sont invalides");
+            }
+        }
+
+        private void Btn_actualiser_Click(object sender, RoutedEventArgs e)
+        {
+            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
+            datagrid_listing.ItemsSource = vm_utilisateur.Afficher_Utilisateur();
+        }
+
+        private void Btn_supprimer_Click(object sender, RoutedEventArgs e)
+        {
+            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
+
+            DataGridCellInfo cellInfo = datagrid_listing.SelectedCells[0];
+            String content = (cellInfo.Column.GetCellContent(cellInfo.Item) as TextBlock).Text;
+
+            vm_utilisateur.Supprimer_Utilisateur(int.Parse(content));
+            Console.WriteLine(content);
+        }
+
+        private void Btn_modifier_Click(object sender, RoutedEventArgs e)
+        {
+            DataGridCellInfo cellInfo = datagrid_listing.SelectedCells[0];
+            String content = (cellInfo.Column.GetCellContent(cellInfo.Item) as TextBlock).Text;
+
+            Modifier newForm = new Modifier(int.Parse(content));
+            newForm.Show();
+            //this.Hide();
+        }
+
+        private void Rdo_membre_famille_Unchecked(object sender, RoutedEventArgs e) // Chef de famille sélectionné
+        {
+            try { 
+                cb_nom_chef_famille.Visibility = Visibility.Collapsed;
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void Rdo_chef_famille_Unchecked(object sender, RoutedEventArgs e) // Membre de famille sélectionné
+        {
+            Actualiser_Combobox();
+        }
+
+        private void Actualiser_Combobox()
+        {
+            try
+            {
+                cb_nom_chef_famille.Visibility = Visibility.Visible;
+                cb_nom_chef_famille.Items.Clear();
+                Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
+                List<DataRow> list = vm_utilisateur.Afficher_Chef_Famille();
+
+                
+                cb_nom_chef_famille.Items.Add("-");
+                cb_nom_chef_famille.SelectedIndex = 0;
+                int count = 0;
+                foreach (DataRow dr in list)
+                {
+                    Console.WriteLine($"{dr.Table.Rows[count][0]} - {dr.Table.Rows[count][1]}");
+                    String content = $"({dr.Table.Rows[count][0]}) {dr.Table.Rows[count][1]}";
+                    cb_nom_chef_famille.Items.Add(content);
+                    count++;
+                }
+            }
+            catch
+            {
+
             }
         }
     }
