@@ -60,6 +60,20 @@ namespace FunEnBulles
                 MessageBox.Show("Sélectionnez une date");
             }
             bool dateValide = dateNaissance.Date >= localDate.Date; // True : Invalide / False : Valide
+            string numero_carte_chef;
+            if (cb_nom_chef_famille.SelectedValue.ToString() != "-")
+            {
+                String content = cb_nom_chef_famille.SelectedValue.ToString();
+                String[] split = content.Split(new char[] { '(', ')' });
+                Console.WriteLine(split[1]);
+                numero_carte_chef = split[1];
+            }
+            else
+            {
+                numero_carte_chef = null;
+            }
+
+
 
             if(!(String.IsNullOrWhiteSpace(numeroCarte) || String.IsNullOrWhiteSpace(nom) || String.IsNullOrWhiteSpace(prenom) || String.IsNullOrWhiteSpace(ville) || String.IsNullOrWhiteSpace(codePostal) || String.IsNullOrWhiteSpace(adresse) || String.IsNullOrWhiteSpace(telephone) || String.IsNullOrWhiteSpace(email) || String.IsNullOrWhiteSpace(pseudo) || dateValide))
             {
@@ -74,6 +88,14 @@ namespace FunEnBulles
                 // Champs invalides
                 Console.WriteLine("Champs invalides");
                 MessageBox.Show("Un ou plusieurs champs sont invalides");
+            }
+            if(!(String.IsNullOrWhiteSpace(numero_carte_chef)))
+            {
+                Vue_Model_Famille_Emprunt vm_famille_emprunt = new Vue_Model_Famille_Emprunt();
+                vm_famille_emprunt.Ajouter_Famille_Emprunt(int.Parse(numero_carte_chef), int.Parse(numeroCarte));
+            }
+            else {
+                Console.WriteLine("Pas de chef de famille");
             }
         }
 
