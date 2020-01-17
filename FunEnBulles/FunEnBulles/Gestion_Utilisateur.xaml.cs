@@ -30,9 +30,7 @@ namespace FunEnBulles
             InitializeComponent();
             datagrid_listing.IsReadOnly = true;
 
-            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
-            datagrid_listing.ItemsSource = vm_utilisateur.Afficher_Utilisateur();
-
+            Actualiser_Liste();
             Actualiser_Combobox();
         }
 
@@ -74,7 +72,6 @@ namespace FunEnBulles
             }
 
 
-
             if(!(String.IsNullOrWhiteSpace(numeroCarte) || String.IsNullOrWhiteSpace(nom) || String.IsNullOrWhiteSpace(prenom) || String.IsNullOrWhiteSpace(ville) || String.IsNullOrWhiteSpace(codePostal) || String.IsNullOrWhiteSpace(adresse) || String.IsNullOrWhiteSpace(telephone) || String.IsNullOrWhiteSpace(email) || String.IsNullOrWhiteSpace(pseudo) || dateValide))
             {
                 // Champs valides
@@ -97,33 +94,50 @@ namespace FunEnBulles
             else {
                 Console.WriteLine("Pas de chef de famille");
             }
+            Actualiser_Liste();
         }
 
         private void Btn_actualiser_Click(object sender, RoutedEventArgs e)
         {
-            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
-            datagrid_listing.ItemsSource = vm_utilisateur.Afficher_Utilisateur();
+            Actualiser_Liste();
         }
 
         private void Btn_supprimer_Click(object sender, RoutedEventArgs e)
         {
-            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
-
             DataGridCellInfo cellInfo = datagrid_listing.SelectedCells[0];
             String content = (cellInfo.Column.GetCellContent(cellInfo.Item) as TextBlock).Text;
 
-            vm_utilisateur.Supprimer_Utilisateur(int.Parse(content));
-            Console.WriteLine(content);
+            var result = MessageBox.Show($"Êtes-vous certain de vouloir supprimer l'utilisateur {content} ?", "Suppression", MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);
+            if (result.ToString() == "Yes")
+            {
+                Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
+                if(vm_utilisateur.Supprimer_Utilisateur(int.Parse(content)))
+                {
+                    MessageBox.Show("Utilisateur supprimé.");
+                }
+                else
+                {
+                    MessageBox.Show("Erreur lors de la suppression.");
+                }
+                Actualiser_Liste();
+            }
         }
 
         private void Btn_modifier_Click(object sender, RoutedEventArgs e)
         {
-            DataGridCellInfo cellInfo = datagrid_listing.SelectedCells[0];
-            String content = (cellInfo.Column.GetCellContent(cellInfo.Item) as TextBlock).Text;
+            try
+            {
+                DataGridCellInfo cellInfo = datagrid_listing.SelectedCells[0];
+                String content = (cellInfo.Column.GetCellContent(cellInfo.Item) as TextBlock).Text;
 
-            Modifier newForm = new Modifier(int.Parse(content));
-            newForm.Show();
-            //this.Hide();
+                Modifier newForm = new Modifier(int.Parse(content));
+                newForm.Show();
+                //this.Hide();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
 
         private void Rdo_membre_famille_Unchecked(object sender, RoutedEventArgs e) // Chef de famille sélectionné
@@ -167,6 +181,12 @@ namespace FunEnBulles
             {
 
             }
+        }
+
+        private void Actualiser_Liste()
+        {
+            Vue_Model_Utilisateur vm_utilisateur = new Vue_Model_Utilisateur();
+            datagrid_listing.ItemsSource = vm_utilisateur.Afficher_Utilisateur();
         }
     }
 }

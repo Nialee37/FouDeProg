@@ -39,9 +39,9 @@ namespace lib_funEnBulles2
 
                 cmd_ajout_famille.ExecuteNonQuery();
             }
-            catch
+            catch(Exception ex)
             {
-
+                Console.WriteLine(ex);
             }
         }
     }
