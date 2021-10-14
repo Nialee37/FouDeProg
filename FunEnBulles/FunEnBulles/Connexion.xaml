@@ -12,13 +12,13 @@
         </Grid.ColumnDefinitions>
         <Rectangle Fill="#FF8D0801" HorizontalAlignment="Left" Height="575" Margin="666,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="296"/>
         <Button x:Name="btn_connexion" Content="Connexion" Margin="707,383,0,0" VerticalAlignment="Top" Height="33" FontSize="14" FontWeight="Bold" BorderBrush="{x:Null}" IsDefault="True" HorizontalAlignment="Left" Width="210" Cursor="Hand" Background="#FFF4D58D" FontFamily="Arial" Foreground="#FF000505"/>
-        <Button x:Name="btn_nouveauCompte" Content="Créer un compte" Margin="706,432,0,0" VerticalAlignment="Top" Height="36" FontSize="14" BorderBrush="{x:Null}" HorizontalAlignment="Left" Width="211" Cursor="Hand" Background="#FFF4D58D" FontFamily="Arial" Foreground="#FF000505"/>
         <TextBlock HorizontalAlignment="Left" Margin="796,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="134" Foreground="{x:Null}" FontFamily="Arial"><Hyperlink Click="Hyperlink_Click"><Run Text="Mot de passe oublié"/></Hyperlink></TextBlock>
         <Label x:Name="lbl_pseudonyme" Content="Pseudonyme :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="706,150,0,0" Height="34" Width="196" FontFamily="Arial" FontSize="18" Foreground="#FFFEFCFD"/>
         <Label x:Name="lbl_mdp" Content="Mot de passe :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="710,234,0,0" Height="40" Width="150" FontFamily="Arial" FontSize="18" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Foreground="#FFFEFCFD" BorderThickness="0"/>
         <TextBox HorizontalAlignment="Left" Height="25" Margin="710,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="14" Background="#FF7C7C7C" BorderBrush="{x:Null}"/>
         <PasswordBox HorizontalAlignment="Left" Height="25" Margin="710,274,0,0" VerticalAlignment="Top" Width="192" Background="#FF7C7C7C" BorderBrush="{x:Null}"/>
         <Label Content="Connexion" HorizontalAlignment="Left" Height="70" Margin="738,46,0,0" VerticalAlignment="Top" Width="179" Foreground="#FFFEFCFD" FontFamily="Arial Black" FontSize="28"/>
+
 
     </Grid>
 </Window>

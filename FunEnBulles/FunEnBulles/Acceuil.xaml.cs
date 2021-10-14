@@ -24,11 +24,40 @@ namespace FunEnBulles
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
         {
-            Connexion fenetre = new Connexion();
-            fenetre.Show();
-            this.Close();
+            ButtonCloseMenu.Visibility = Visibility.Visible;
+            ButtonOpenMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
+        {
+            ButtonCloseMenu.Visibility = Visibility.Collapsed;
+            ButtonOpenMenu.Visibility = Visibility.Visible;
+        }
+
+        private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GridMain.Children.Clear();
+
+            switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
+            {
+                case "ItemEditeur":
+                    gestion_utilisateur unUtilisateur = new gestion_utilisateur();
+                    GridMain.Children.Add(unUtilisateur);
+                    break;
+                case "ItemOuvrage":
+                    gestion_ouvrage unOuvrage = new gestion_ouvrage();
+                    GridMain.Children.Add(unOuvrage);
+                    break;
+                case "ItemExemplaire":
+                    gestion_exemplaire unExemplaire = new gestion_exemplaire();
+                    GridMain.Children.Add(unExemplaire);
+                    break;
+                default:
+                    break;
+            }
         }
     }
-}
+    }
+

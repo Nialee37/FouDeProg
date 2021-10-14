@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿FunEnBulles
 
 
@@ -18,3 +19,25 @@ Acceuil.xaml;Connexion.xaml;Emprunt.xaml;Gestion_Utilisateur.xaml;Modifier.xaml;
 
 False
 
+=======
+﻿FunEnBulles
+
+
+winexe
+C#
+.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\
+FunEnBulles
+none
+false
+DEBUG;TRACE
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\App.xaml
+7-616682927
+
+12667296925
+281905860244
+Acceuil.xaml;Connexion.xaml;Emprunt.xaml;gestion_exemplaire.xaml;gestion_ouvrage.xaml;gestion_utilisateur.xaml;New_Mdp.xaml;
+
+True
+
+>>>>>>> Ouvrage

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Application x:Class="FunEnBulles.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -7,3 +8,28 @@
          
     </Application.Resources>
 </Application>
+=======
+﻿<Application x:Class="FunEnBulles.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FunEnBulles"
+             StartupUri="Acceuil.xaml">
+    <Application.Resources>
+        <Style x:Key="BtnArrondi" TargetType="Button">
+            <Setter Property="Background" Value="#333366"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="20" Background="{TemplateBinding Background}" BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                                
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>
+>>>>>>> Ouvrage
