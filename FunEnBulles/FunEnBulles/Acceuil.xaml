@@ -35,7 +35,7 @@
 
             <Grid HorizontalAlignment="Left" Height="47" Margin="964,10,0,0" VerticalAlignment="Top" Width="46">
                 <Grid.Background>
-                    <ImageBrush ImageSource="C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\image\croix.png"/>
+                    <ImageBrush ImageSource="C:\Users\fnorma01\source\repos\hamburgers\FunEnBulles\FunEnBulles\image\croix.png"/>
                 </Grid.Background>
             </Grid>
             <Button Content="Déconnexion" HorizontalAlignment="Right" Margin="0,540,10,0" VerticalAlignment="Top" Width="168" Height="47" FontSize="20" FontFamily="Arial" Background="#FFBDBDBD" BorderBrush="{x:Null}" Foreground="White" Padding="1"/>
