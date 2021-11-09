@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe.config
 C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe
 C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.pdb
@@ -97,3 +98,108 @@ C:\Users\fnorma01\source\repos\hamburgers\FunEnBulles\FunEnBulles\obj\Debug\FunE
 C:\Users\fnorma01\source\repos\hamburgers\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CopyComplete
 C:\Users\fnorma01\source\repos\hamburgers\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
 C:\Users\fnorma01\source\repos\hamburgers\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+=======
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe.config
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.pdb
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csprojAssemblyReference.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\MainWindow.g.cs
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\App.g.cs
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.lref
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\MainWindow.baml
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.g.resources
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.Properties.Resources.resources
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.GenerateResource.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\Chargement_connection.g.cs
+C:\Users\f.normand\source\repos\FunEnBulles\FunEnBulles\obj\Debug\Chargement_connection.baml
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Connexion.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\New_Mdp.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\App.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.cache
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.lref
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csprojAssemblyReference.cache
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe.config
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.pdb
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Connexion.baml
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\New_Mdp.baml
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.g.resources
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.Properties.Resources.resources
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.GenerateResource.cache
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.baml
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.g.cs
+C:\Users\f.normand\Desktop\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.baml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe.config
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.pdb
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csprojAssemblyReference.cache
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Connexion.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Gestion_Utilisateur.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\New_Mdp.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\App.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.cache
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.lref
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.baml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Connexion.baml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.baml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\New_Mdp.baml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Gestion_Utilisateur.baml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.g.resources
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.Properties.Resources.resources
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.GenerateResource.cache
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\MySql.Data.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\Google.Protobuf.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\BouncyCastle.Crypto.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\Renci.SshNet.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\MySql.Data.xml
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CopyComplete
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\lib_funEnBulles2.dll
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\lib_funEnBulles2.pdb
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe.config
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.exe
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\FunEnBulles.pdb
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\lib_funEnBulles2.dll
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\Google.Protobuf.dll
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\BouncyCastle.Crypto.dll
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\Renci.SshNet.dll
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\lib_funEnBulles2.pdb
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\bin\Debug\MySql.Data.xml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csprojAssemblyReference.cache
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Connexion.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Gestion_Utilisateur.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\New_Mdp.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\App.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.cache
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles_MarkupCompile.lref
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Acceuil.baml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Connexion.baml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Emprunt.baml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Gestion_Utilisateur.baml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\New_Mdp.baml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.g.resources
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.Properties.Resources.resources
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.GenerateResource.cache
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CoreCompileInputs.cache
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.csproj.CopyComplete
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.exe
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\FunEnBulles.pdb
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Modifier.g.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Modifier.baml
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Modifier.g.cs
+A:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\Modifier.baml
+>>>>>>> 50553a8ec4b6bc767baa28d81bb28dca5ffc0145

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:FunEnBulles/lib_funEnBulles/Ouvrage.cs
 ﻿using System;
 
 namespace lib_funEnBulles
@@ -57,3 +58,13 @@ namespace lib_funEnBulles
     }
     
 }
+=======
+﻿using System;
+
+namespace lib_funEnBulles
+{
+    public class Class1
+    {
+    }
+}
+>>>>>>> 50553a8ec4b6bc767baa28d81bb28dca5ffc0145:.lib_funEnBulles/Ouvrage.cs

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿FunEnBulles
 
 
@@ -18,3 +19,25 @@ Acceuil.xaml;Connexion.xaml;Emprunt.xaml;gestion_exemplaire.xaml;gestion_ouvrage
 
 True
 
+=======
+﻿FunEnBulles
+
+
+winexe
+C#
+.cs
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\obj\Debug\
+FunEnBulles
+none
+false
+DEBUG;TRACE
+F:\Cours\SIO - Année 2\SLAM\PPE_01\FouDeProg\FunEnBulles\FunEnBulles\App.xaml
+6-1282862506
+
+14-1118474926
+171287751385
+Acceuil.xaml;Connexion.xaml;Emprunt.xaml;Gestion_Utilisateur.xaml;Modifier.xaml;New_Mdp.xaml;
+
+False
+
+>>>>>>> 50553a8ec4b6bc767baa28d81bb28dca5ffc0145
